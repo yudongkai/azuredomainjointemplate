@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "Location"
+        },
+        "virtualMachineName": {
+            "value": "servername"
+        },
+        "virtualMachineSize": {
+            "value": "size"
+        },
+        "dnsLabelPrefix": {
+            "value": "dnsPrefix"
+          },
+        "domainToJoin": {
+            "value": "domainToJoin"
+        },
+        "domainUsername": {
+            "value": "domainUsername"
+        },
+        "domainPassword": {
+            "value": null
+        },
+        "domainJoinOptions": {
+            "value": 1
+        },
+        "ouPath": {
+            "value": "ouPath"
+        },
+        "adminUsername": {
+            "value": "UserName"
+        },
+        "virtualNetworkName": {
+            "value": "virtualNetworkName"
+        },
+        "networkInterfaceName": {
+            "value": "NICName"
+        },
+        "adminPassword": {
+            "value": "adminPassword"
+        },
+        "subnetName": {
+            "value": "subnetName"
+        }
+    }
+}
