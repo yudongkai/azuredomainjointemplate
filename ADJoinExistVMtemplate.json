@@ -4,6 +4,7 @@
     "parameters": {
         "vmList": {
             "type": "string",
+            "defaultValue": "AZWAPPT1",
             "minLength": 1,
             "metadata": {
                 "description": "List of virtual machines to be domain joined, if using multiple VMs, make their names comma separate. E.g. VM01, VM02, VM03."
@@ -11,6 +12,7 @@
         },
         "location": {
             "type": "string",
+            "defaultValue": "Canada Central",
             "metadata": {
                 "description": "Location name of the virtual machine"
             }
@@ -29,6 +31,7 @@
         },
         "domainFQDN": {
             "type": "string",
+            "defaultValue": "mfcgd.com",
             "metadata": {
                 "description": "Domain FQDN where the virtual machine will be joined"
             }
